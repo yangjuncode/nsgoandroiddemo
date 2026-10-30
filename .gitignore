@@ -31,3 +31,15 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# NSGo & Android Build outputs
+dist/
+.nsgo/
+*.apk
+*.aar
+
+# Screenshots & unrelated temp files
+screenshot*.png
+
+# Keystore
+*.keystore

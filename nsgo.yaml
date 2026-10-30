@@ -1,0 +1,17 @@
+name: NSGoServiceDemo
+id: dev.oneo.nsgo.servicedemo
+version: 0.2.0
+
+icon:
+  png: assets/Icon.png
+
+window:
+  width: 420
+  height: 760
+
+dev:
+  target: native
+
+build:
+  output: dist
+  targets: [android_arm64, android_x64]
